@@ -19,7 +19,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
- 
+    font-family: 'Roboto', sans-serif;
 }
 hr{
  
@@ -32,6 +32,9 @@ ul{
     padding: 0;
     list-style: none;
 }
+.bg_gray{
+    background-color: #C8DAF9;
+}
 section{
     padding: 60px 0;
 }
@@ -42,7 +45,15 @@ h3{
 h4{
 
 }
-
+ul li{
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+p.rules{
+    text-align: justify;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
 .bg_red{
     background: red;
 }
