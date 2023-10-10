@@ -45,10 +45,22 @@ h3{
 h4{
 
 }
+/* input{
+    border-top: 0!important;
+    border-bottom: 0 !important;
+} */
 ul li{
     margin-bottom: 10px;
     text-align: justify;
     line-height: 1.5;
+}
+.row{
+    margin-bottom: 1.5px;
+}
+.form-control,.form-select{
+    border-radius: 0;
+    /* border-top: 0;
+    border-bottom: 0; */
 }
 p.rules{
     text-align: justify;
